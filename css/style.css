@@ -1,0 +1,589 @@
+body
+{
+    background-color:  blanchedalmond;
+}
+
+
+h1
+{
+    color:saddlebrown
+}
+
+a
+{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 20pt;
+    color:saddlebrown
+}
+
+a:hover
+{
+    color:blanchedalmond;
+    font-size: 18pt;
+}
+
+.header
+   {
+    width: 100%;
+    background-color:powderblue;
+    padding-bottom: 20px;
+   }
+
+   .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height:auto
+}
+
+.image-container img {
+    display: block;
+}
+
+.image-container img:not(:last-child) {
+    margin-right: -4px;
+}
+
+   .slider
+   {
+    width: 100%;
+    background-color:blanchedalmond ;
+   }
+
+   .box1
+   {
+    width: 25%;
+    background-color:burlywood;
+    padding-bottom: 500px;
+    float:center-box;
+   }
+
+   .box2
+{
+    width: 25%;
+    background-color:powderblue;
+    padding-bottom: 400px;
+    float: right;
+}
+
+.box3
+{
+    width: 25%;
+    background-color:burlywood;
+    padding-bottom: 400px;
+    float: right;
+}
+
+.box4
+{
+    width: 25%;
+    background-color:powderblue;
+    padding-bottom: 400px;
+    float: right;
+}
+
+.content
+   {
+text-align: justify;
+font-family: arial;font-family: 'Roboto Mono', monospace;
+font-size: 20pt;
+   }
+
+
+table,tr,td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+td
+{
+    padding: 10px;
+}
+
+tr
+{
+    background-color:blanchedalmond
+}
+
+tr:nth-child(even)
+{
+    background-color:rgba(148, 130, 78, 0.879);
+}
+
+th
+{
+    background-color:blanchedalmond;
+    color:rgb(13, 61, 92);
+}
+
+tr:hover
+{
+    background-color:rgb(219, 208, 85);
+}
+
+
+.header
+    {
+        width:100%;
+        background-color:rgba(148, 130, 78, 0.879);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    
+        header {
+          background-color:black;
+          color: whitesmoke;
+          padding: 5px;
+          text-align: center;
+        }
+    
+        .container {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 10px;
+        }
+    
+        h1 {
+          color: #ab9b9b;
+        }
+    
+        p {
+          line-height: 2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: whitesmoke;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+      
+          h1 {
+            text-align: center;
+            color:rgba(148, 130, 78, 0.879) ;
+            margin-bottom: 20px;
+          }
+      
+          p {
+            color: #555;
+          }
+      
+          .highlight {
+            color: #40138e;
+            font-weight: bold;
+          }
+      
+          .team {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+          }
+      
+          .team-member {
+            text-align: center;
+            margin: 0 20px;
+          }
+      
+          .team-member img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+      
+          .team-member h3 {
+            margin-top: 15px;
+            color: #333;
+          }
+      
+          .team-member p {
+            color: #777;
+          }
+
+          .container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color:whitesmoke;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+      
+          h1 {
+            text-align: center;
+            color: #655d4f;
+            margin-bottom: 20px;
+            
+          }
+      
+          .hobby {
+            margin-bottom: 30px;
+          }
+      
+          .hobby-image {
+            width:100%;
+            margin-bottom: 10px;
+            padding: center;
+          }
+      
+          .hobby-title {
+            color: #2e2a2a;
+            font-size: 20px;
+            margin-bottom: 5px;
+          }
+      
+          .container {
+         max-width: 800px;
+         margin: 40px auto;
+         padding: 20px;
+         background-color:whitesmoke;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+   
+       h1 {
+         text-align: center;
+         color: #3c3232;
+         margin-bottom: 20px;
+       }
+   
+       .course {
+         display: flex;
+         align-items: center;
+         margin-bottom: 20px;
+         padding-block: 20px;
+       }
+   
+       .course-image {
+         width: 200px;
+         height: 200px;
+         border-radius: 50%;
+         object-fit: cover;
+         margin-right: 20px;
+       }
+   
+       .course-info {
+         flex-grow: 1;
+       }
+   
+       .course-title {
+         color: #2e2626;
+         font-size: 24px;
+         margin-bottom: 10px;
+       }
+   
+       .course-description {
+         color: #0a0606;
+         line-height: 1.5;
+       }
+   
+       .course-link {
+         color: #ff6347;
+         text-decoration: none;
+       }
+   
+       .course-link:hover {
+         text-decoration: underline;
+       }
+
+       .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .course {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+  
+      .course-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+  
+      .course-info {
+        flex-grow: 1;
+      }
+  
+      .course-title {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      .course-description {
+        color: #555;
+        line-height: 1.5;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: rgb(241, 240, 235);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      h1 {
+        text-align: center;
+        color: #4c3d3d;
+        margin-bottom: 20px;
+      }
+  
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+      }
+  
+      .gallery-item {
+        border-radius: 4px;
+        overflow: hidden;
+      }
+  
+      .gallery-item img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }  
+
+      body { 
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0; 
+        padding: 0; 
+      } 
+       
+      header { 
+        background-color: rgb(187, 139, 105); 
+        color: #fff; 
+        padding: 20px; 
+      } 
+       
+      h1 { 
+        margin: 0; 
+      } 
+       
+      main { 
+        padding: 20px; 
+      } 
+       
+      footer { 
+        background-color: #3d0c0c; 
+        color: #fff; 
+        padding: 10px; 
+        text-align: center; 
+      } 
+       
+      .social-media-icons { 
+        list-style: none; 
+        padding: 0; 
+        display: center; 
+      } 
+       
+      .social-media-icons li { 
+        content: 10px; 
+      } 
+       
+      .social-media-icons a { 
+        color: #6a3c07b2; 
+        font-size: 20px; 
+      } 
+       
+      .social-media-icons a:hover { 
+        color: #740159c2; 
+      } 
+
+      .email-icon {
+        font-size: 20px;
+        color:#0ba835; ;
+        margin-right: 5px; 
+        padding: 10px;
+      }
+  
+      .email-address {
+        font-size: 16px;
+        color: #181e92;
+      }
+
+      .phone-icon {
+        font-size: 24px;
+        color: #0ba835;
+        margin-right: 5px;
+      }
+  
+      .phone-number {
+        font-size: 18px;
+        color: #571111;
+      }
+
+      body {
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color:blanchedalmond#f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        color: #555;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+  
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+  
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #542828;
+        font-weight: bold;
+      }
+  
+  
+      textarea {
+        height: 120px;
+      }
+  
+  
+      body {
+        font-family: Arial, sans-serif;
+        background-color: blanchedalmond;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      .content {
+        margin-top: 20px;
+      }
+  
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+  
+      .picture {
+        text-align: center;
+      }
+  
+      .picture img {
+        max-width: 400px;
+        height: auto;
+        padding-bottom: 0px;
+      }
+      body {
+        font-family:'Satisfy', cursive;;
+        margin: 0;
+        padding: 0;
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 40px;
+      }
+  
+      .image-container img {
+        max-width: 400px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+  
+      .image-container img:hover {
+        transform: scale(1.20);
+      }
+  
+      .bottom {
+        background-color: blanchedalmond;
+        padding: 10px;
+        text-align: center;
+        gap: 5px;
+      } 
+      
+      .hero {
+        background-color:blanchedalmond;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(0, 0, 0);
+      }
+  
+      .map-container {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+    
+      .map-container:hover {
+        transform: scale(1.05);
+      }
+    
+      .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+    
